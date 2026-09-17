@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lic. Martina Lopez</title>
+</head>
+<body>
+     <header>
+        <h1>Tu psicologa online</h1>
+        <nav>
+            <a href="index.html">inicio</a> 
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Agentda tu turno</h1>
+        <h2>Completa el siguiente formulario para solicitar informacion.</h2>
+        <form action="./contacto.html" method="post">
+            <label for="id-nombre">Nombre</label>
+            <input type="text" name="Nombre" id="id-nombre">
+
+            <label for="id-telefono">Telefono</label>
+            <input type="tel" name="Telafono" id="id-telefono">
+
+            <label for="id-email">Email</label>
+            <input type="email" name="Email" id="id-mail">
+
+            <label for="id-consulta">Tipo de consulta</label>
+            <select name="Consulta" id="id-consulta">
+                <option value="primer">Primera consulta</option>
+                <option value="sesiones">Informacion de sesiones</option>
+                <option value="turnos">Disponibilidad de turnos</option>
+            </select>
+
+            <label for="id-comentarios">Mensaje</label>
+            <textarea name="comentarios" id="id-comentarios"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
