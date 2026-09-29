@@ -1,0 +1,10 @@
+{
+  "name": "actividad-6",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "five-server"
+  },
+  "dependencies": {
+    "five-server": "^0.5.0"
+  }
+}
